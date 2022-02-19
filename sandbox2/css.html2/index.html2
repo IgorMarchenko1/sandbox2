@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="outerContainer">
+        <code>
+     
+    </code>
+        <div class="container containerA">
+            <div class="square squareA">A</div>
+
+            <div class="rotationAxis A"></div>
+        </div>
+        <span>Полное решение найти не успел!</span>
+
+    </div>
+
+    <div class="outerContainer">
+        <code>
+      
+    </code>
+        <div class="container containerB">
+            <div class="square squareB">B</div>
+
+            <div class="rotationAxis B"></div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
+<!--=== CSS, HTML ===№2  -->

@@ -1,0 +1,48 @@
+
+
+Опыта\практики работы в Linux и  GIT,к сожалению нет.
+  С большим желанием готов изучать...
+
+
+sandbox2---> css.html2--->index.html2 & style.css2(задание 2 из === CSS, HTML ===).+ === GIT === + === Linux ===.
+sandbox2---> js---> css.html1--->index.html1 & style.css1(задание 1 из === CSS, HTML ===) + === JS логика ===
+
+
+
+
+
+1. Список всех файлов, папок первого уровня и их содержимого. ls * -r.
+
+ls. Команда ls - команда list - работает в терминале Linux, 
+чтобы показать все основные каталоги, хранящиеся в данной файловой системе.
+
+2.touch ../all.txt
+find ./ -name "*.txt" | xargs cat >> ../all.txt
+
+нужно вписать словосочетание cat имя1 имя2…имена всех имя выходного документа cat 1.txt 2.txt itog.txt.
+
+3.Удаление пустых строк с помощью команды grep
+$ grep -v '^[[:space:]]*$' sample.txt
+
+$ grep -v ‘^$’ sample.txt
+
+Удаление пустых строк с помощью команды sed
+$ sed ‘/^$/d’ sample.txt
+
+Удаление пустых строк с помощью команды  awk
+$ awk ‘{if(NF>0) {print $0}}’ sample.txt
+
+# awk 'NF > 0' main.txt > out.txt
+
+4.find /home/place/to/crawl -type f -exec file --mime-type {}  \; | awk '{if ($NF == "image/jpeg") print $0 }'
+
+5.  3 способа очистки содержимого файла в linux:
+
+echo -n > path/file
+
+cp /dev/null path/file
+
+cat /dev/null > path/file
+---------------------------
+
+6.find . -mount -type f -size +2M 2>/dev/null

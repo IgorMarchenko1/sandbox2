@@ -1,0 +1,51 @@
+    body {
+        margin: 0px;
+        font-size: 24px;
+    }
+    
+    .container {
+        display: flex;
+        min-height: 65%;
+        height: 444px;
+    }
+    
+    .main {
+        flex-grow: 1;
+        order: 2;
+    }
+    
+    .sidebar {
+        background-color: #eff0f3;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 15%;
+        margin: 10px;
+    }
+    
+    .sidebar {
+        order: 3;
+    }
+    
+    header,
+    footer,
+    nav,
+    .sidebar,
+    .main {
+        text-align: center;
+        padding: 20px;
+        margin: 10px;
+        background-color: #ffffff;
+        border: 5px solid rgba(17, 1, 1, 0.842);
+    }
+    
+    header {
+        background-color: #ffffff;
+        height: 15%;
+    }
+    
+    footer {
+        background-color: #ffffff;
+        height: 10%;
+        border: 5px solid rgba(17, 1, 1, 0.842);
+    }
+    /* == CSS, HTML ===№1 */
